@@ -1,0 +1,109 @@
+body{
+  padding: 0;
+  background-color: black;
+}
+h1{
+  font-size: 50px;
+  color: #0de029;
+  text-align: center;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+p{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  align-content: center;
+  display: flex;
+}
+
+nav{
+  width: 70%vw;
+  align-content: center;
+  text-align: center;
+
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+  border-bottom: 2px solid #00f349;
+  padding: 10px 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  align-content: center;
+}
+
+#transp {
+    width: 90vw;
+    height: 50vh;
+    background: #ffffff;
+    display:block;
+    align-items: flex-start;
+    margin: 0 5vw;
+    position: absolute;
+    opacity: 30%;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px black ;
+}
+
+.painel {
+  width: 90vw;
+  height: 50vh;
+  display: flex;
+  align-items: flex-start;
+  margin: 0 5vw;
+  position: absolute;
+}
+
+.painel-A{
+  width: 30vw;
+  height: 50vh;
+  display:flex;
+  cursor: pointer;
+  justify-content: center;
+}
+.painel-A img{
+  max-width:60%;
+  max-height:100%;
+  color: darkgreen;
+}
+
+.painel-B{
+  width: 30vw;
+  height: 50vh;
+  display:flex;
+  cursor: pointer;
+  justify-content: center;
+}
+.painel-B img{
+  max-width:60%;
+  max-height:100%;
+}
+
+.painel-C{
+  width: 30vw;
+  height: 50vh;
+  display:flex;
+  cursor: pointer;
+  justify-content: center;
+}
+.painel-C img{
+  max-width:60%;
+  max-height:100%;
+}
+
+.bg_video{
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1;
+	background: url(vd.jpg) no-repeat;
+	background-size: cover;
+  opacity: 50%;
+}
+
